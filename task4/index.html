@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm Deepak</h1>
+            <p>Web Developer & Designer</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+        <img src="C:\Users\deepa\OneDrive\Desktop\DSC_0476 (1)-1.JPG" alt="Your Photo" class="hero-image">
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Deepak, a passionate web developer with a focus on creating beautiful and functional websites. I have a background in [Your Education], and I've worked on numerous web development projects that helped me gain skills in HTML, CSS, JavaScript, and more.</p>
+            <p>With a keen eye for design and a strong technical foundation, I aim to build websites that not only look good but also perform well.</p>
+            <ul>
+                <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, Python</li>
+                <li><strong>Education:</strong> [Your Education]</li>
+                <li><strong>Experience:</strong> [Your Experience]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1. You can showcase your skills here.</p>
+                <a href="https://github.com/SanTheUniverseBoss/AI_Project1.git" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A brief description of Project 2. Highlight how you contributed to the project.</p>
+                <a href="link-to-project" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Deepak. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
