@@ -1,0 +1,76 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.scrolled {
+    background-color: #333;
+}
+
+
+.section {
+    height: 100vh;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(135deg, #5f9ea0, #333);
+    color: white;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#projects {
+    background-color: #ddd;
+}
+
+#contact {
+    background-color: #999;
+}
+
+.scrolled .nav-links li a {
+    color: #fff;
+}
